@@ -1,0 +1,99 @@
+.twitter_profiles {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.twitter-profiles-card {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 360px;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: center;
+  background-color: #fff;
+  margin: 10px 5px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);  
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px #eaeaea solid;
+}
+
+.twitter-profiles-image {
+  border-radius: 50%;
+  height: 73px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.twitter-profiles-name {
+  font-size: 17px;  
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.twitter-profiles-screen-name {
+  font-size: 12px;
+  margin: 5px 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.twitter-profiles-screen-name a {
+  color: #aaa;
+}
+
+.twitter-profiles-screen-name a:hover {
+  color: #55ACEE;
+  text-decoration: none;
+}
+
+.twitter-profiles-description {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.twitter-profiles-line {
+  display: inline-block;
+  background: #55ACEE;
+  width: 50px;
+  margin: 5px auto;
+  height: 2px;
+  transition: width .2s ease-in;
+  -webkit-transition: width .2s ease-in;
+}
+
+.twitter-profiles-card:hover .twitter-profiles-line {
+  width: 80px;
+}
+
+.twitter-profiles-stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eaeaea;
+  padding: 8px 0 4px;
+  text-align: center;
+}
+
+.twitter-profiles-stats-single {
+  display: inline-block;
+  font-size: 10px;
+  color: #555;
+  font-weight: normal;
+  padding: 0 10px;
+}
+
+.twitter-profiles-stats-single strong { 
+  display: inline-block;
+  margin-top: 1px;
+  font-size: 16px;
+  color: #333;
+}
